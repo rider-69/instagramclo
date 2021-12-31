@@ -1,0 +1,41 @@
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    background-color: lightgray;
+   
+
+  
+}
+
+
+.imageupload__progress{
+     width: 100%;
+     padding: 13px;
+    
+    
+
+}
+.imageupload__captionText{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.imageupload__file{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.imageupload > button {
+    color: black;
+    font-weight: 7f00;
+}
+button:hover{
+    color: rgb(98, 98, 195);
+}
